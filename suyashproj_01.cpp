@@ -14,8 +14,8 @@ int main(){
     cout<<"Entered Time"<<"= -"<<h<<":"<<m<<"GMT"<<endl;
    
 
-    int c=h+13;
-    int d=m+45;
+    int c=(h+9)%24;
+    int d=(m+45)%60;
 
     cout<<"Converted Time"<<"= +"<<c<<":"<<d<<"GMT";
 
